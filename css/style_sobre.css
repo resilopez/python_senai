@@ -1,0 +1,60 @@
+header img{
+    width: 120px;
+    height: 100px;
+
+    margin-right: 32px;
+    margin-bottom: 7px;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    background-color: #C0C0C0;
+}
+.colorFooter {
+    color: white ;
+    font-weight: bolder;
+}
+p {
+    opacity: 0.8;
+}
+.parColor2 {
+    color: rgba(0, 0, 0, 0.938);
+    font-weight: bold;
+    opacity: 0.8;    
+}
+/*-------------------------------------------------------------------*/
+.card-title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px ;
+    font-weight: bolder;
+    margin: 5%;
+    text-align: center;
+}
+.card-text{
+    text-align: justify;
+    font-size: smaller;
+    line-height: 30px;
+    width: 80%;
+    margin-left: 10%;
+}
+.video{
+    margin-left: 25%;
+}
+.titulo2{
+    margin-left: 10%;
+}
+.table{
+    margin-left: 10%;
+    width: 80%;
+}
+.botaoTopo{
+    margin-left: 78%;
+    padding: 8px;
+    
+}
+.menuCima{
+    text-align: center;
+}
+.nav-link{
+    color:gray
+}

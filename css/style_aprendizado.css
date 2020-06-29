@@ -1,0 +1,111 @@
+header img{
+    width: 120px;
+    height: 100px;
+
+    margin-right: 32px;
+    margin-bottom: 7px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #C0C0C0;
+    font-size: 20px;
+}
+.colorFooter {
+    color: white ;
+    font-weight: bolder;
+}
+p {
+    opacity: 0.8;
+}
+.parColor2 {
+    color: rgba(0, 0, 0, 0.938);
+    opacity: 0.8;
+    
+}
+/*-------------------------------------------------------------------*/
+.card-title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px ;
+    font-weight: bolder;
+    margin: 5%;
+    text-align: center;
+}
+
+.card-title-2{
+    margin: 5% 10% 5% 10%;
+    text-align: center;
+}
+.card-text{
+    text-align: justify;
+    font-size: smaller;
+    line-height: 30px;
+    width: 80%;
+    margin-left: 10%;
+}
+.button_learn{
+    margin-left: 10%;
+    text-decoration: none;
+    
+}
+a:link 
+{ 
+ text-decoration:none;
+}
+
+.video{
+    margin-left: 25%;
+}
+.titulo2{
+    margin-left: 10%;
+}
+.table{
+    margin-left: 10%;
+    width: 80%;
+}
+.botaoTopo{
+    margin-left: 78%;
+    padding: 8px;
+    
+}
+.menuCima{
+    text-align: center;
+}
+.nav-link{
+    color:gray
+}
+
+.video{
+    margin-left: 25%;
+}
+.titulo2{
+    margin-left: 10%;
+}
+.table{
+    margin-left: 10%;
+    width: 80%;
+}
+.botaoTopo{
+    margin-left: 78%;
+    padding: 8px;
+    
+}
+.menuCima{
+    text-align: center;
+}
+.nav-link{
+    color:gray
+}
+
+.img-1 {
+    margin: 50pt 0pt 0pt 290pt;
+}
+.img-3 {
+    margin: 0pt 0pt 0pt 120pt;
+}
+.img-4 {
+    margin: 0pt 0pt 30pt 160pt;
+}
+.img-5 {
+    margin: 20pt 0pt 20pt 150pt;
+}

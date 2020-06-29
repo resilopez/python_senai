@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+  <title>Python</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="shortcut icon" href="img/logo3.png">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <header>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html"> <img src="img/logo3.png" alt="logo" id="imgLogo"> </a>
+        <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse"
+            data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+            aria-label="Toggle navigation">Menu</button>
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+            <ul class="navbar-nav mr-auto ml-auto mt-2 mt-lg-0">
+                <li class="nav-item dropdown mr-5">
+                    <a class="nav-link dropdown-toggle" href="sobre.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Sobre
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="sobre.html#historia">História</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="sobre.html#popularidade">Popularidade</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item btn " href="sobre.html#proposito">Propósito</a>
+                    </div>
+                  </li>
+                <li class="nav-item mr-5">
+                    <a class="nav-link" href="sintaxe.html">Sintaxe <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item mr-5">
+                    <a class="nav-link" href="Aprendizado.html">Aprendizado <span class="sr-only">(current)</span></a>
+                </li>
+
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="text" placeholder="Pesquisar">
+                <button class="btn btn-outline-warning my-2 my-sm-0" type="submit"><i
+                        class="fas fa-search"></i></button>
+            </form>
+        </div>
+    </nav>
+</header>
+
+  <main>
+    <div id="carouselSite" class="carousel slide" data-ride="carousel">
+
+      <ol class="carousel-indicators">
+        <li data-target="#carouselSite" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselSite" data-slide-to="1"></li>
+        <li data-target="#carouselSite" data-slide-to="2"></li>
+      </ol>
+
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="img-fluid d-block w-100" src="img/slide5.jpg" alt="Primeiro Slide">
+          <div class="carousel-caption">
+            <h3>História</h3>
+            <p class="parColor">Saiba a história do Python, desde seu início até sua popularização. Hoje uma das
+              linguagens mais utilizadas no globo. </p>
+          </div>
+
+        </div>
+
+        <div class="carousel-item">
+          <img class="img-fluid d-block w-100" src="img/slide4.jpg" alt="Terceiro Slide">
+          <div class="carousel-caption">
+            <h3>Sintaxe</h3>
+            <p class="parColor">Sintaxe simples e ágil. Saiba mais sobre uma das linguagens mais fáceis de compreender na atualidade.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="img-fluid d-block w-100" src="img/slide2.jpg" alt="Quarto Slide">
+          <div class="carousel-caption">
+            <h3>Aprendizado</h3>
+            <p class="parColor2">Saiba onde e como aprender Python.</p>
+          </div>
+        </div>
+      </div>
+
+      <a class="carousel-control-prev" href="#carouselSite" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Anterior</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselSite" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Próximo</span>
+      </a>
+    </div>
+  </main>
+
+
+  <footer class="colorFooter container-fluid py-5 bg-dark">
+    <div class="row">
+      <div class="col-12 col-md">
+        <h4><i class="fab fa-python"></i> Python</h4>
+        <p class="text-muted">&copy 1989 - 2020</p>
+      </div>
+
+      <div class="col-6 col-md">
+        <h4>Equipe</h4>
+        <ul class="list-unstyled">
+          <li><a class="text-muted">Alisson Vieira</a></li>
+          <li><a class="text-muted">Andrews Vieira</a></li>
+          <li><a class="text-muted">Renato Lopez</a></li>
+          <li><a class="text-muted">Tiago Gil</a></li>
+        </ul>
+      </div>
+
+
+      <div class="col">
+        <label for="email">Email</label>
+        <div class="input-group">
+          <input type="text" class="form-control" placeholder="exemplo@exemplo.com"
+            aria-label="Exemplo de grupo de input" aria-describedby="btnGroupAddon">
+
+          <div class="input-group-prepend">
+
+            <button class="btn btn-outline-warning my-2 my-sm-0" type="submit"><i class="fa fa-paper-plane"
+                aria-hidden="true"></i></button>
+          </div>
+        </div>
+        <small id="emailAjuda" class="form-text text-muted">Seu e-mail é confidencial.</small>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

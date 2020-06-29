@@ -1,0 +1,448 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <title>Python</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/logo3.png">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+
+
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+            <a class="navbar-brand" href="index.html"> <img src="img/logo3.png" alt="logo" id="imgLogo"> </a>
+            <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse"
+                data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                aria-label="Toggle navigation">Menu</button>
+            <div class="collapse navbar-collapse" id="collapsibleNavId">
+                <ul class="navbar-nav mr-auto ml-auto mt-2 mt-lg-0">
+                    <li class="nav-item dropdown mr-5">
+                        <a class="nav-link dropdown-toggle" href="sobre.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Sobre
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="sobre.html#historia">História</a>
+                          <div class="dropdown-divider"></div>
+                          <a class="dropdown-item" href="sobre.html#popularidade">Popularidade</a>
+                          <div class="dropdown-divider"></div>
+                          <a class="dropdown-item btn " href="sobre.html#proposito">Propósito</a>
+                        </div>
+                      </li>
+                    <li class="nav-item mr-5">
+                        <a class="nav-link" href="sintaxe.html">Sintaxe <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item mr-5">
+                        <a class="nav-link" href="Aprendizado.html">Aprendizado <span class="sr-only">(current)</span></a>
+                    </li>
+    
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="text" placeholder="Pesquisar">
+                    <button class="btn btn-outline-warning my-2 my-sm-0" type="submit"><i
+                            class="fas fa-search"></i></button>
+                </form>
+            </div>
+        </nav>
+    </header>
+    <a name="comecoPagina"></a>
+    <main class="mt-5">
+
+        <div class="container">
+            <div class="card mb-3">
+                <img src="img/sintaxe/var.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <div id="sintaxeBloco1">
+                        <h3 class="card-title">Tipos de Variáveis</h3>
+
+                        <div class="card-text">
+
+                            <p>As principais são numéricas, sendo int(para números inteiros) e float(para
+                                números com
+                                ponto
+                                flutuante ou
+                                real) e as strings(str). Temos também a variável bool (boolean).</p>
+
+                            <p>São declaradas da seguinte maneira:</p>
+
+                            <ul>
+                                <li>
+                                    <p>Para atribuir o valor à uma variável do tipo string, é necessário utilizar as
+                                        aspas
+                                        simples (‘ ‘) ou dupla (“ “).</p>
+                                    <p>Ex: nome = “Carlos”</p>
+                                </li>
+                                <li>
+                                    <p>Para as variáveis numéricas, não é necessário nenhuma aspas.</p>
+                                    <p>Ex: idade = 15</p>
+                                    <p>Peso = 50.7</p>
+                                </li>
+                                <li>
+                                    <p>Para as variáveis boolean, apenas atribuir o valor verdadeiro ou falso</p>
+                                    <p>Ex: status = True/False OBS: A primeira letra deve ser maiúscula.</p>
+                                    <p style="color: red;">OBS: A primeira letra deve ser maiúscula.</p>
+                                </li>
+                            </ul>
+                            <p>A indentação no Python é obrigatória, visto que não se usa {} e nem () como no JS.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card mb-3">
+                <div class="card-body">
+                    <div id="sintaxeBloco2">
+                        <h3 class="card-title">Gerenciamento de Memória</h3>
+                        <div class="card-text">
+                            <p>Em algumas linguagens, disponibilizam um tamanho fixo para cada variável.
+                            </p>
+                            <p>Em C, por exemplo, quando atribuímos uma variável, primeiro a declaramos, reservando um
+                                espaço na
+                                memória e, em seguida, armazenamos o valor no ponto de memória alocado. Podemos criar
+                                outra
+                                variável
+                                com o mesmo valor repetindo o processo, terminando com dois pontos na memória, cada um
+                                com
+                                seu
+                                próprio valor que é equivalente ao do outro.</p>
+                            <p>Python é um pouco diferente. A linguagem atribui a cada variável um valor, ou seja, o
+                                nome da
+                                variável faz referência a um valor. Internamente, Python tem um contador interno de
+                                quantas
+                                referências um objeto possui, se o contador chegar a zero a linguagem remove o objeto,
+                                liberando
+                                a
+                                memória.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card mb-3">
+                <div class="card-body">
+                    <div id="sintaxeBloco3">
+                        <h3 class="card-title">Comentários</h3>
+                        <h4 class="card-title_02">Notação Inline</h4>
+                        <div class="card-text">
+                            <p>Utilizamos o caractere cerquilha # para demarcarmos que tudo que
+                                estiver a frente desse caractere, deve ser ignorado pelo interpretador
+                                do Python, por exemplo:
+                            </p>
+
+                            <img class="imagem_01" src="img/sintaxeex1.PNG" alt="Imagem de exemplo">
+
+                            <h4 class="card-title_02">Notação Multiline</h4>
+
+                            <p>A linguagem Python também disponibiliza uma notação para
+                                demarcarmos que um conjunto de linhas deve ser ignorado pelo
+                                interpretador. Essa notação se dá pelo uso de 3 aspas simples, ou entao,
+                                3 aspas duplas. Nestes casos, tudo que estiver delimitado pelas aspas
+                                não será interpretado, por exemplo:
+                            </p>
+
+                            <img class="imagem_02" src="img/sintaxeex2.PNG" alt="Imagem de exemplo">
+
+                            <p>No código acima, definimos 2 blocos de códigos que serão ignorados
+                                pelo interpretador do Python ou então, podemos dizer que, serão
+                                interpretados como se fossem comentários e que dispensam qualquer
+                                avaliação por parte do interpretador.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card mb-3">
+                <div class="card-body">
+                    <div id="sintaxeBloco4">
+                        <h3 class="card-title">Estruturas de condição com o IF</h3>
+
+                        <div class="card-text">
+
+                            <p>O IF é uma estrutura de condição que permite avaliar uma expressão e, de acordo com seu
+                                resultado,
+                                executar uma determinada ação.</p>
+                            <p>No código a seguir, temos um exemplo de uso do IF no qual verificamos se a variável idade
+                                é
+                                menor
+                                que
+                                20. Em caso positivo, imprimimos uma mensagem na tela, e em caso negativo, o código
+                                seguirá
+                                normalmente, desconsiderando a linha 3.</p>
+                            <img class="imagem_03" src="img/sintaxeex3.PNG" alt="Imagem de exemplo">
+                            <p> Como podemos notar, essa estrutura é formada pela palavra reservada if,
+                                seguida
+                                por
+                                uma
+                                condição e por dois pontos (:). As linhas abaixo dela formam o bloco de instruções que
+                                serão
+                                executadas se a condição for atendida. Para isso, elas devem ser identadas corretamente,
+                                respeitando
+                                a especificação do Python. Nesse código, apenas a instrução da linha 3 é executada, e
+                                por
+                                isso
+                                ela
+                                está mais avançada. Se fosse necessária a execução de outras linhas no caso da idade ser
+                                menor
+                                que
+                                20, elas também deveriam estar no mesmo nível de identação da linha 3.</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card mb-3">
+                <div class="card-body">
+
+                    <div id="sintaxeBloco5">
+                        <h3 class="card-title">Estrutura de condição IF-ELIF-ELSE</h3>
+
+                        <div class="card-text">
+
+                            <p>Vimos anteriormente como utilizar o IF para executar uma ação caso uma condição seja
+                                atendida. No
+                                entanto, nenhum comportamento específico foi definido para o caso de a condição não ser
+                                satisfeita.
+                                Quando isso é necessário, precisamos utilizar a palavra reservada else. Adicionalmente,
+                                se
+                                existir
+                                mais de uma condição alternativa que precisa ser verificada, devemos utilizar o elif
+                                para
+                                avaliar as
+                                expressões intermediárias antes de usar o else.</p>
+                            <img class="imagem_04" src="img/sintaxeex4.PNG" alt="Imagem de exemplo">
+                            <p>Na linha 2, verificamos se o valor informado está dentro de uma faixa de valores
+                                específica.
+                                Caso
+                                a
+                                condição seja satisfeita, o programa executará a linha 3. Por outro lado, caso o
+                                resultado
+                                não
+                                seja
+                                o esperado, então o programa verificará o próximo condicional, na linha 4 e, caso ele
+                                seja
+                                verdadeiro, a linha 5 será executada. O mesmo ocorre para a verificação da linha 6. Por
+                                fim,
+                                se
+                                nenhuma das condições foi satisfeita, o programa executará o que é especificado no bloco
+                                else.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card mb-3">
+                <div class="card-body">
+
+                    <div id="sintaxeBloco6">
+                        <h3 class="card-title">Loops com FOR e WHILE</h3>
+
+                        <div class="card-text">
+
+                            <p>Em algumas situações, é comum que uma mesma instrução (ou conjunto delas) precise ser
+                                executada
+                                várias vezes seguidas. Nesses casos, normalmente utilizamos um loop (ou laço de
+                                repetição),
+                                que
+                                permite executar um bloco de código repetidas vezes, enquanto uma dada condição é
+                                atendida.
+                            </p>
+                            <p>Em Python, os loops são codificados por meio dos comandos for e while. O primeiro nos
+                                permite
+                                percorrer os itens de uma coleção e, para cada um deles, executar um bloco de código. Já
+                                o
+                                while,
+                                executa um conjunto de instruções várias vezes enquanto uma condição é atendida.</p>
+                            <img class="imagem_05" src="img/sintaxeex5.PNG" alt="imagem de exemplo">
+                            <p>Em Python, os loops são codificados por meio dos comandos for e while. O primeiro nos
+                                permite
+                                percorrer os itens de uma coleção e, para cada um deles, executar um bloco de código. Já
+                                o
+                                while,
+                                executa um conjunto de instruções várias vezes enquanto uma condição é atendida.</p>
+                            <p>O comando while, por sua vez, faz com que um conjunto de instruções seja executado
+                                enquanto
+                                uma
+                                condição for atendida. Quando o resultado passa a ser falso, a execução é interrompida,
+                                saindo
+                                do
+                                loop, e passa para o próximo bloco.</p>
+                            <p>No código a seguir, vemos um exemplo de uso do laço while, onde definimos a variável
+                                contador,
+                                iniciando com 0, e enquanto seu valor for menor que 5, executamos as instruções das
+                                linhas 3
+                                e
+                                4.
+                            </p>
+                            <img class="imagem_06" src="img/sintaxeex6.PNG" alt="imagem de exemplo">
+                            <p>Observe que na linha 4 incrementamos a variável contador, de forma que em algum momento
+                                seu
+                                valor
+                                igual a 5. Quando isso for verificado na linha 2, o laço será interrompido. Caso a
+                                condição
+                                de
+                                parada nunca seja atingida, o loop será executado infinitamente, gerando problemas no
+                                programa.
+                            </p>
+                            <p>Estruturas de controle, condicionais e de repetição, estão presentes na maioria das
+                                linguagens de
+                                programação e representam uma parte fundamental de cada uma delas. Sendo assim, é muito
+                                importante
+                                conhecer a sintaxe e o funcionamento dessas estruturas.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card mb-3">
+                <div class="card-body">
+                    <div id="sintaxeBloco6">
+
+                        <h3 class="card-title">Matrizes</h3>
+
+                        <div class="card-text">
+
+                            <p>
+                                Matrizes são estruturas bidimensionais (tabelas) com linhas e colunas muito
+                                importantes na matemática, utilizadas por exemplo para a resolução de sistemas de
+                                equações e
+                                transformações lineares.
+                            </p>
+
+                            <p>
+                                Em Python, uma matriz pode ser representada como uma lista de listas, onde um elemento
+                                da
+                                lista contém uma linha da matriz, que por sua vez corresponde a uma lista com os
+                                elementos
+                                da coluna da matriz.
+                            </p>
+
+                            <img id="matriz" src="img/matriz_01.jpg" alt="imagem de exemplo">
+
+                            <img id="matriz_02" src="img/ezgif.com-crop.gif" alt="imagem de exemplo">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="card mb-3">
+                <div class="card-body">
+
+                    <div id="sintaxeBloco6">
+                        <h3 class="card-title">Vetores</h3>
+
+                        <div class="card-text">
+
+                            <p>
+                                Em Python, uma lista é representada como uma sequência de objetos separados por vírgula
+                                e
+                                dentro de colchetes [], assim, uma lista vazia, por exemplo, pode ser representada por
+                                colchetes sem nenhum conteúdo. A Listagem 1 mostra algumas possibilidades de criação
+                                desse
+                                tipo de objeto.
+                            </p>
+
+                            <p>
+                                Em Python, uma matriz pode ser representada como uma lista de listas, onde um elemento
+                                da
+                                lista contém uma linha da matriz, que por sua vez corresponde a uma lista com os
+                                elementos
+                                da coluna da matriz.
+                            </p>
+
+                            <img id="vetor" src="img/vetor.png" alt="imagem de exemplo">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card mb-3">
+                <div class="card-body">
+
+                    <div id="sintaxeBloco6">
+                        <h3 class="card-title">Demonstração</h3>
+
+                        <div class="video">
+
+                            <iframe class="mt-3 mr-auto ml-auto" width="800" height="450" src="https://www.youtube.com/embed/ElRd0cbXIv4"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                                <br><br><br>
+                                <a href="#comecoPagina" class="btn btn-secondary botaoTopo">Voltar ao Topo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+    </main>
+
+
+    <footer class="colorFooter container-fluid py-5 bg-dark mt-5">
+        <div class="row">
+            <div class="col-12 col-md">
+                <h4><i class="fab fa-python"></i> Python</h4>
+                <p class="text-muted">&copy 1989 - 2020</p>
+            </div>
+
+            <div class="col-6 col-md">
+                <h4>Equipe</h4>
+                <ul class="list-unstyled">
+                    <li><a class="text-muted">Alisson Vieira</a></li>
+                    <li><a class="text-muted">Andrews Vieira</a></li>
+                    <li><a class="text-muted">Renato Lopez</a></li>
+                    <li><a class="text-muted">Tiago Gil</a></li>
+                </ul>
+            </div>
+
+
+            <div class="col">
+                <label for="email">Email</label>
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="exemplo@exemplo.com"
+                        aria-label="Exemplo de grupo de input" aria-describedby="btnGroupAddon">
+
+                    <div class="input-group-prepend">
+
+                        <button class="btn btn-outline-warning my-2 my-sm-0" type="submit"><i class="fa fa-paper-plane"
+                                aria-hidden="true"></i></button>
+                    </div>
+                </div>
+                <small id="emailAjuda" class="form-text text-muted">Seu e-mail é confidencial.</small>
+            </div>
+
+        </div>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

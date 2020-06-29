@@ -1,0 +1,473 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <title>Python</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style_sobre.css">
+    <link rel="shortcut icon" href="img/logo3.png">
+</head>
+
+<body>
+
+
+
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+            <a class="navbar-brand" href="index.html"> <img src="img/logo3.png" alt="logo" id="imgLogo"> </a>
+            <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse"
+                data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                aria-label="Toggle navigation">Menu</button>
+            <div class="collapse navbar-collapse" id="collapsibleNavId">
+                <ul class="navbar-nav mr-auto ml-auto mt-2 mt-lg-0">
+                    <li class="nav-item dropdown mr-5">
+                        <a class="nav-link dropdown-toggle" href="sobre.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Sobre
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="sobre.html#historia">História</a>
+                          <div class="dropdown-divider"></div>
+                          <a class="dropdown-item" href="sobre.html#popularidade">Popularidade</a>
+                          <div class="dropdown-divider"></div>
+                          <a class="dropdown-item btn " href="sobre.html#proposito">Propósito</a>
+                        </div>
+                      </li>
+                    <li class="nav-item mr-5">
+                        <a class="nav-link" href="sintaxe.html">Sintaxe <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item mr-5">
+                        <a class="nav-link" href="Aprendizado.html">Aprendizado <span class="sr-only">(current)</span></a>
+                    </li>
+
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="text" placeholder="Pesquisar">
+                    <button class="btn btn-outline-warning my-2 my-sm-0" type="submit"><i
+                            class="fas fa-search"></i></button>
+                </form>
+            </div>
+        </nav>
+    </header>
+    <a name="comecoPagina"></a>
+    <main class="mt-5">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <div class="container">
+                    <ul class="navbar-nav mr-auto nav justify-content-center w-100">
+                        <li class="nav-item mr-3">
+                            <a href="#historia" class="nav-link active">História</a>
+                        </li>
+                        <li class="nav-item mr-3">
+                            <a href="#popularidade" class="nav-link">Popularidade</a>
+                        </li>
+                        <li class="nav-item mr-3">
+                            <a href="#proposito" class="nav-link">Propósito</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <a name="historia"></a>
+            <div class="card mb-3" style="max-width: 100%;">
+                <div class="row no-gutters">
+                    <div>
+                        <div class="card-body">
+                            <h5 class="card-title">História</h5>
+                            <p class="card-text">&nbsp &nbsp A ideia de implementar uma nova linguagem, futuramente
+                                chamada Python,
+                                surgiu em 1982, com o holandês Guido Van Rossum. Guido trabalhava no CWI (Centrum
+                                Wiskunde & Informatica, Centro de Matemática e Ciência da Computação) em Amsterdã,
+                                Holanda, no time de desenvolvimento da Linguagem ABC.
+                                Em 1987, Guido foi transferido para o grupo Amoeba - um sistema
+                                operacional Microkernel liderado por Andrew Tanenbaum. Nesta época Guido percebeu a
+                                necessidade de um sistema operacional intermediário, entre as linguagem C e Shell
+                                Script. <br><br>
+                                &nbsp &nbsp A base para a linguagem Python foi a linguagem ABC. Nota-se tal
+                                semelhança ao observar que alguns elementos de sintaxe (e a indentação obrigatória) do
+                                Python foram fortemente inspirados nesta linguagem. O início do desenvolvimento da
+                                linguagem foi em 1989 e no início de 1990 o autor já tinha uma versão mínima. No fim do
+                                mesmo ano, Python já era mais utilizada no CWI do que a própria linguagem ABC.<br><br>
+                                &nbsp &nbsp No ano de 1991, Guido foi transferido do grupo Amoeba para o grupo
+                                Multimídia. De acordo
+                                com o próprio Guido "ABC me deu a inspiração crucial para Python, o grupo Amoeba a
+                                motivação imediata e o grupo de multimídia fomentou seu crescimento". Ainda neste ano,
+                                no dia 20 de Fevereiro, foi lançada a primeira versão do Python, então denominada de
+                                v0.9.0. O anúncio foi feito no grupo de discussão (newsgroup) alt.sources.
+                                As versões lançadas pelo CWI foram da v0.9.0 até Python 1.2. <br> <br>
+                                &nbsp &nbsp Apesar de essas versões serem lançadas pelo CWI, o mesmo não financiou
+                                (oficialmente) o desenvolvimento da linguagem.
+                                A inspiração do nome da linguagem, ao contrário da primeira impressão ao ler o nome, não
+                                foi a serpente Python. Sua inspiração foi numa série Britânica chamada “Monty Python’s
+                                Flying Circus”, segundo o Guido, a primeira coisa que veio em sua mente. A referência ao
+                                réptil foi de autoria da editora O’Relly, em seu livro “Programming Python”, ao inserir
+                                uma serpente Píton na capa do livro. <br><br>
+                                &nbsp &nbsp Em Abril de 1995 Guido foi trabalhar na CNRI (Corporation for National
+                                Research Initiatives), um laboratório de pesquisa sem fins lucrativos em Reston,
+                                Virginia. Neste período, a linguagem teve financiamento da DARPA (Defense Advanced
+                                Research Projects Agency) e Guido liderou e auxiliou um time no desenvolvimento de um
+                                sistema de agente móvel escrito puramente em Python. Este mesmo time, veio a criar a
+                                primeira organização ao redor do Python, a "Python Software Activity" que, apesar de não
+                                ser uma entidade legal, auxiliou na criação e suporte da infraestrutura para a
+                                comunidade Python como, o site python.org, um servidor CVS, listas de email e SIGs
+                                (Special Interest Groups, traduzindo livremente: grupos de interesses específicos).
+                                <br><br>
+                            </p>
+                            <table class="table table-striped table-dark">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">Mês/Ano</th>
+                                        <th scope="col">Versão</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Fevereiro de 1991</td>
+                                        <td>0.9.0</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Fevereiro de 1991</td>
+                                        <td>0.9.1</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Outubro de 1991</td>
+                                        <td>0.9.2</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Dezembro de 1991</td>
+                                        <td>0.9.4</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Janeiro de 1992</td>
+                                        <td>0.9.5 (Macintosh only)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Abril de 1992</td>
+                                        <td>0.9.6</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Janeiro de 1993</td>
+                                        <td>0.9.8</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Julho de 1993</td>
+                                        <td>0.9.9</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Janeiro de 1994</td>
+                                        <td>1.0.0</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Fevereiro de 1994</td>
+                                        <td>1.0.2</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Maio de 1994</td>
+                                        <td>1.0.3</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Julho de 1994</td>
+                                        <td>1.0.4</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Outubro de 1994</td>
+                                        <td>1.1</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Novembro de 1994</td>
+                                        <td>1.1.1</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Abril de 1995</td>
+                                        <td>1.2</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Outubro de 1995</td>
+                                        <td>1.3</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Outubro de 1996</td>
+                                        <td>1.4</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Janeiro de 1998</td>
+                                        <td>1.5</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Outubro de 1998</td>
+                                        <td>1.5.1</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Abril de 1999</td>
+                                        <td>1.5.2</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Setembro de 2000</td>
+                                        <td>1.6</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <br>
+                            <p class="card-text">
+                                &nbsp &nbsp No ano 2000, Guido e alguns amigos foram para uma startup BeOpen.com, e lá
+                                foi formado o grupo PythonLabs e lançada a versão 2.0 do Python. A partir de então a
+                                linguagem evoluiu significadamente.
+                                Em outubro do mesmo ano, a BeOpen.com faliu e foi desmembrada e o PythonLabs foi
+                                contratado pela Digital Creations, que posteriormente mudou o nome para Zope
+                                Corporation. Para diminuir os riscos que ocorriam à linguagem e aos ideais que Guido
+                                sonhara para o Python, foi então criada a Python Software Foundation em 2001.
+                                Organização essa, sem fins lucrativos, constituída por membros da equipe de
+                                desenvolvimento daquela época e por Eric Raymond. Ela tem como objetivo ser dona de toda
+                                e qualquer propriedade intelectual relacionada ao Python, e como missão promover e
+                                proteger o avanço da linguagem. <br> <br>
+                                &nbsp &nbsp Após a criação da PSF todos os releases desde a 2.1 foram feitas utilizando
+                                a PSF
+                                License Agreement, uma licença que atribui todos os direitos do Python à PSF. Uma vez
+                                que o futuro do Python (e a sua evolução) se desvinculou dos empregadores de seu criado,
+                                existem poucos relatos e registros. Segue alguns destaques:
+                                <br><br> • Em Julho de 2003 o PythonLab saiu da Zope Corporation para trabalhar na
+                                Elemental
+                                Security em San Mateo, California;
+                                <br><br> • Em Dezembro de 2005 Guido foi trabalhar no Google em Mountain View,
+                                Califórnia;
+                                <br><br> • Em Janeiro de 2013 Guido foi trabalhar para o Dropbox.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a name="popularidade"></a>
+            <div class="card mb-3" style="max-width: 100%;">
+                <div class="row no-gutters">
+                    <div>
+                        <div class="card-body">
+                            <h5 class="card-title">Popularidade</h5>
+                            <p class="card-text">
+                                &nbsp &nbsp Python está entre as linguagens mais populares do mundo. Em pesquisas feitas
+                                ao redor do
+                                mundo, sua posição fica sempre entre as quatro primeiras.
+                                <br><br> • O Github classificou Python em terceiro lugar em popularidade, segundo a
+                                Exame;
+                                <br><br> • O Canaltech classificou em quarto lugar;
+                                <br><br> • O Computerworld classificou em primeiro;<br><br>
+                            </p>
+                            <iframe class="video" width="560" height="315"
+                                src="https://www.youtube.com/embed/UVVdqdFWFYE?start=126" frameborder="0"
+                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                            <br><br><br>
+                            <h3 class="titulo2">Mas, quais são as aplicações mais famosas feitas em Python?</h3>
+                            <p class="card-text">
+                                <br>1. Youtube
+                                <br><br>2. Google
+                                <br><br>3. Instagram
+                                <br><br>4. Dropbox
+                                <br><br>5. Quora
+                                <br><br>6. Pinterest
+                                <br><br>7. Spotify
+                                <br><br>8. Reddit
+                                <br><br>9. Blender 3D
+                                <br><br>10. BitTorrent
+                                <br><br>11. Plone<br><br>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a name="proposito"></a>
+            <div class="card mb-3" style="max-width: 100%;">
+                <div class="row no-gutters">
+                    <div>
+                        <div class="card-body">
+                            <h5 class="card-title">Propósito</h5>
+                            <p class="card-text">
+                                &nbsp &nbsp É fácil ver que a linguagem tem facilidades incríveis para uso geral. A
+                                pergunta é: por que Python é a linguagem ideal para aplicações científicas? As respostas
+                                são muitas, mas podemos resumir algumas aqui. A primeira razão, e provavelmente a
+                                principal, é: Python é uma linguagem expressiva, em que é fácil traduzir o raciocínio em
+                                um algoritmo. Em aplicações científicas, o raciocínio é essencialmente complicado — essa
+                                é a natureza das ciências. É um problema adicional para o cientista ter que se preocupar
+                                com, além do assunto básico de sua pesquisa, a correção do programa em detalhes pouco
+                                relevantes: alocação de memória, gerenciamento de recursos, etc. Python faz isso tudo
+                                automaticamente de maneira muito eficiente, permitindo ao cientista se concentrar
+                                exclusivamente no problema sendo estudado.
+                                <br><br>
+                                &nbsp &nbsp Python é extremamente legível. Isso significa que é muito fácil compreender
+                                programas escritos há algum tempo. É muito comum que os programas em atividades
+                                científicas sejam criados a partir da evolução de algoritmos anteriores. Portanto, é
+                                extremamente importante ser capaz de entender o que foi feito antes. Uma vez que as
+                                palavras-chave da linguagem Python são voltadas para a estruturação dos programas (e não
+                                para indicar ao computador como compilar ou interpretar trechos de código), não existem
+                                trechos de código que são inúteis para o raciocínio.
+                                <br><br>
+                                &nbsp &nbsp Python tem uma comunidade ativa e vibrante, espalhada por todo o mundo. E,
+                                sendo uma linguagem livre, todos os seus usuários estão dispostos a contribuir (este
+                                site é um exemplo disso, já que todos seus contribuidores são voluntários). Isso faz com
+                                que a documentação seja abundante e existam módulos para executar virtualmente qualquer
+                                tarefa necessária. Isso é importante: não há tempo para reinventar a roda, então poder
+                                contar com módulos prontos é ótimo. Mas, mais que isso, uma vez que os programas em
+                                Python são distribuídos na forma de código-fonte, qualquer pessoa pode alterar, corrigir
+                                e melhorar os algoritmos. Isso faz com que os módulos sejam maduros e seguros, testados
+                                contra diversas situações e diversas vezes. A robustez alcançada é um fator importante.
+                                <br><br>
+                                &nbsp &nbsp Python é, além disso, uma linguagem de propósito geral. Muitas vezes, é
+                                necessário lidar com tarefas laterais: buscar dados em um banco de dados remoto, ler uma
+                                página na internet, exibir graficamente os resultados, criar uma planilha, etc.
+                                Linguagens de cunho especificamente científico têm um sério problema aí, mas, uma vez
+                                que Python é utilizada em praticamente todo tipo de tarefa, encontram-se módulos prontos
+                                para realizar essas tarefas que podem ser tornar complicadas. A seguir alguns propósitos
+                                da linguagens:
+                                <br><br>
+                                <strong>Potátil e Extensível</strong>
+                                <br><br>
+                                &nbsp &nbsp As propriedades portáteis e extensíveis do Python permitem que você execute
+                                operações de
+                                idioma cruzado sem problemas. O Python é suportado pela maioria das plataformas
+                                presentes no mercado hoje, desde o Windows, Linux, Macintosh, Solaris, Playstation e
+                                entre outros.
+                                Os recursos de extensibilidade do Python permitem integrar componentes Java e .NET. Você
+                                também pode invocar bibliotecas C e C ++.
+                                <br><br>
+                                <strong>Desenvolvimento Web</strong>
+                                <br><br>
+                                &nbsp &nbsp O Python tem uma matriz de frameworks para desenvolvimento de websites, os
+                                mais
+                                populares são: Django, Flask, e Pylons. Já que essas estruturas são escritas em Python,
+                                essa é a principal razão que torna o código muito mais rápido e estável.
+                                Você também pode realizar a extração da web, onde pode buscar detalhes de qualquer outro
+                                site. Você ficaria impressionado de saber que sites como o Instagram, Pinterest e muitos
+                                outros são construídos apenas nesses frameworks.
+                                <br><br>
+                                <strong>Inteligência Artificial</strong>
+                                <br><br>
+                                &nbsp &nbsp A Inteligência Artificial é o próximo grande desenvolvimento no mundo da
+                                tecnologia.
+                                Você pode realmente fazer uma máquina imitar o cérebro humano que tem o poder de pensar,
+                                analisar e tomar decisões.
+                                Bibliotecas como Keras e TensorFlow trazem a funcionalidade de aprendizado de máquina
+                                para o mix. Dão a capacidade de aprender sem ser explicitamente programado. Além disso,
+                                temos bibliotecas como o openCv que ajuda a visão computacional ou o reconhecimento de
+                                imagens.
+                                <br><br>
+                                <strong>Computação Gráfica</strong>
+                                <br><br>
+                                &nbsp &nbspPython é amplamente utilizado em projetos pequenos e grandes, online ou
+                                offline. Ele é
+                                usado para construir aplicativos GUI e de desktop. Ele usa a biblioteca “Tkinter” para
+                                fornecer uma maneira rápida e fácil de criar aplicativos.
+                                Ele também é usado no desenvolvimento de jogos, onde você pode escrever a lógica de usar
+                                um módulo “pygame”, que também é executado em dispositivos Android.
+                                <br><br>
+                                <strong>Enquadramento de Testes</strong>
+                                <br><br>
+                                &nbsp &nbsp Realizar testes pode ser uma tarefa tediosa e o Python é o impulsionador
+                                para facilitar
+                                isso, então todo testador deve saber dessa linguagem.
+                                O Python tem muitas estruturas de teste integrados, que abrangem a depuração e fluxos de
+                                trabalho mais rápidos. Existem muitas ferramentas e módulos para facilitar as coisas,
+                                como o Selenium e o Splinter. Ele também suporta testes com multi-plataforma e
+                                cross-browser com frameworks como PyTest e Robot Framework.
+                                <br><br>
+                                <strong>Big Data</strong>
+                                <br><br>
+                                &nbsp &nbsp O Python é amplamente usado para Big Data, pois você pode processá-lo
+                                facilmente. Além de lidar com muitas dificuldades de dados e suportar computação
+                                paralela, onde você pode usar o Python para o Hadoop também.
+                                Com Python, você tem uma biblioteca chamada “Pydoop” e pode escrever um programa
+                                MapReduce em Python e processar dados presentes no cluster HDFS. Como também existem
+                                outras bibliotecas, como “Dask” e “Pyspark”, para processamento de Big Data.
+                                <br><br>
+                                <strong>Scripting e Automação</strong>
+                                <br><br>
+                                &nbsp &nbsp Muitas pessoas só sabem que o Python é uma linguagem de programação, mas o
+                                Python também pode ser usado como linguagem de script, onde:
+                                O código é escrito na forma de scripts e executado
+                                A máquina lê e interpreta o código
+                                A verificação de erros é feita durante o tempo de execução
+                                Depois que o código é verificado, ele pode ser usado várias vezes. Então você pode
+                                automatizar certas tarefas em um programa.
+                                <br><br>
+                                <strong>Ciência de Dados</strong>
+                                <br><br>
+                                &nbsp &nbsp Python é a linguagem líder de muitos cientistas de dados. Durante anos,
+                                acadêmicos e pesquisadores particulares estavam usando a linguagem MATLAB para pesquisa
+                                científica, mas tudo começou a mudar com o lançamento de mecanismos numéricos do Python,
+                                como “Numpy” e “Pandas”.
+                                O Python também lida com dados tabulares, matriciais e estatísticos e até mesmo
+                                visualizá-os com bibliotecas populares como “Matplotlib” e “Seaborn”.
+                                <br><br>
+                                <strong>Popularidade e altos salários</strong>
+                                <br><br>
+                                &nbsp &nbsp Os engenheiros de Python têm alguns dos maiores salários do setor. Além
+                                disso, o Python teve um aumento de popularidade no último ano.
+                                Dados indicam um crescimento diferenciado do Python em relação à outras linguagens
+                                populares (como Javascript, Java, C++ e PHP) nos anos recentes e consideram
+                                especificamente o comportamento dos usuários do Stack Overflow. Em 2012, o uso do Python
+                                estava abaixo de outras 5 linguagens mais populares, mas hoje ele é a quarta linguagem
+                                de programação mais usada.
+                            </p>
+                            <br>
+                            <a href="#comecoPagina" class="btn btn-secondary botaoTopo">Voltar ao Topo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <footer class="colorFooter container-fluid py-5 bg-dark mt-5">
+        <div class="row">
+            <div class="col-12 col-md">
+                <h4><i class="fab fa-python"></i> Python</h4>
+                <p class="text-muted">&copy 1989 - 2020</p>
+            </div>
+
+            <div class="col-6 col-md">
+                <h4>Equipe</h4>
+                <ul class="list-unstyled">
+                    <li><a class="text-muted">Alisson Vieira</a></li>
+                    <li><a class="text-muted">Andrews Vieira</a></li>
+                    <li><a class="text-muted">Renato Lopez</a></li>
+                    <li><a class="text-muted">Tiago Gil</a></li>
+                </ul>
+            </div>
+
+
+            <div class="col">
+                <label for="email">Email</label>
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="exemplo@exemplo.com"
+                        aria-label="Exemplo de grupo de input" aria-describedby="btnGroupAddon">
+
+                    <div class="input-group-prepend">
+
+                        <button class="btn btn-outline-warning my-2 my-sm-0" type="submit"><i class="fa fa-paper-plane"
+                                aria-hidden="true"></i></button>
+                    </div>
+                </div>
+                <small id="emailAjuda" class="form-text text-muted">Seu e-mail é confidencial.</small>
+            </div>
+
+        </div>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

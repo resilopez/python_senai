@@ -1,0 +1,107 @@
+header img{
+    width: 120px;
+    height: 100px;
+
+    margin-right: 32px;
+    margin-bottom: 7px;
+}
+body {
+    font: 20px Muli, sans-serif;
+    background-color: #C0C0C0;
+}
+
+.imagem_01 {
+    margin: 25px 0px 25px 170px;
+}
+
+.imagem_02 {
+    margin: 5px 0px 25px 150px;
+}
+
+.imagem_03 {
+    margin: 5px 0px 25px 90px;
+}
+
+.imagem_04 {
+    margin: 5px 0px 25px 110px;
+}
+
+.imagem_05 {
+    margin: 5px 0px 25px 90px;
+}
+.imagem_06 {
+    margin: 5px 0px 25px 90px;
+}
+
+.video
+{
+    margin-left: 8%;
+}
+.card-title{
+    font-size: 40px ;
+    font-weight: bolder;
+    margin: 2%;
+    text-align: center;
+}
+
+.botaoTopo{
+    margin-left: 78%;
+    padding: 8px;
+    
+}
+
+.card-title_02{
+    font-size: 30px ;
+    font-weight: bolder;
+    margin: 5%;
+    text-align: center;
+}
+
+.card-text{
+    text-align: justify;
+    font-size: smaller;
+    line-height: 30px;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.card 
+{
+    margin: 10px 20px 20px 20px;
+}
+
+.card-body
+{
+    margin: 50px 50px 50px 50px;
+}
+
+.colorFooter {
+    color: white ;
+    font-weight: bolder;
+}
+p {
+    opacity: 0.8;
+}
+.parColor2 {
+    color: rgba(0, 0, 0, 0.938);
+    font-weight: bold;
+    opacity: 0.8;
+    
+}
+#matriz {
+    margin-top: 20px;
+    margin-left: 80px;
+}
+
+#matriz_02 {
+    width: 70%;
+    margin: 30px 0px 50px 120px;
+}
+
+#vetor {
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+
+
